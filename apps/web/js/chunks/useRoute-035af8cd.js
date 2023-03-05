@@ -1,0 +1,1 @@
+define(["exports","./vendor-e2ecbc23","./useClientService-0039200a"],(function(e,r,t){"use strict";e.useRoute=()=>{const e=t.useRouter(),u=r.ref();return u.value=e.currentRoute,e.afterEach((e=>u.value={...e})),r.readonly(u)}}));
